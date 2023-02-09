@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./core/components/App/App";
+import { PhoneContextProvider } from "./core/context/phone-context-provider";
 import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";
@@ -10,7 +11,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App></App>
+    <PhoneContextProvider>
+      <App></App>
+    </PhoneContextProvider>
   </React.StrictMode>
 );
 

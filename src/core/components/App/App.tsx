@@ -1,12 +1,17 @@
 import React from "react";
+import { Actions } from "../Actions/actions";
+import { Info } from "../Info/info";
+import { Keyboard } from "../Keyboard/keyboard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>W4CH4</h1>
-      </header>
-    </div>
+    <>
+      <Info></Info>
+      <main className="phone">
+        <Keyboard></Keyboard>
+        <Actions></Actions>
+      </main>
+    </>
   );
 }
 
