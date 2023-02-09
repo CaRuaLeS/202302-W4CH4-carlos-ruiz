@@ -23,3 +23,25 @@ Separa todo en los siguientes componentes:
   - Key
 
 Entrega también un listado de responsabilidades.
+
+## Listado de responsabilidades.
+
+### Info:
+
+-Texto calling/call ended
+
+### Display:
+
+-Muestra los números marcados
+
+### Keyboard:
+
+-Conjunto de numeros
+-Botón Delete
+-Botón Llamar
+-Botón Colgar
+
+### Actions:
+
+-Comprobar display para habilitar boton de llamar
+-Controlar botones Llamar y Colgar
