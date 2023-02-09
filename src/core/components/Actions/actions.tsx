@@ -1,10 +1,11 @@
+import { Display } from "../Display/display";
 import { Action } from "../Action/action";
 
 export function Actions() {
   return (
     <>
       <div className="actions">
-        <span className="number">667359961</span>
+        <Display></Display>
         <Action></Action>
       </div>
     </>

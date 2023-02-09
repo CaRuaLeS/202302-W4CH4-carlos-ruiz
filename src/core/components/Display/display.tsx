@@ -1,7 +1,7 @@
 export function Display() {
   return (
     <>
-      <p>Display</p>
+      <span className="number">667359961</span>
     </>
   );
 }
